@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-family: 'Raleway', sans-serif;
+}
+.container {
+    min-height: 100vh;
+    min-width: 100vw;
+}
+.student {
+    height: 100px;
+    width: 100px;
+}
+.student__list {
+    list-style: none;
+    display: flex;
+}
+.name {
+    font-size: 3rem;
+}

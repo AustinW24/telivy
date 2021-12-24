@@ -1,0 +1,26 @@
+.individual__tag {
+    outline: 1px solid gray;
+    display: inline-block;
+    background-color:rgb(221, 221, 221);
+    padding: 2px;
+    border-radius: 2px;
+    margin: 0px 4px 0px 4px;
+}
+.tag__container {
+    display: flex;
+    flex-direction: column;
+    
+}
+.tag__input {
+    font-size: 14px;
+    color: rgb(77, 77, 77);
+    width: 200px;
+    margin-left: 245px;
+    padding: 10px 5px 5px 5px;
+    border: 0;
+    border-bottom: 2px solid rgb(233, 233, 233);
+    margin-bottom: 30px;
+}
+.tag__input:focus {
+    outline: none;
+}

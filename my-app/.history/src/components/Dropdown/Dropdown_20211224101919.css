@@ -1,0 +1,13 @@
+button {
+    color: blue;
+    background-color: Transparent;
+    border-radius: 5px;
+    position: absolute;
+    right: 80px;
+    min-width: 40px;
+    min-height: 30px;
+    border: 2px solid black;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    cursor: pointer;
+}
+

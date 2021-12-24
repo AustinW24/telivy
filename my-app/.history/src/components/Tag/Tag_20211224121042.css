@@ -1,0 +1,9 @@
+.tag__input {
+    font-size: 14px;
+    color: lightgray;
+    width: 100px;
+    margin-left: 245px;
+    padding: 15px 5px 15px 5px;
+    border: 0;
+    border-bottom: 2px solid gray;
+}

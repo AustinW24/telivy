@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+html {
+    overflow:   scroll;
+  }
+  button {
+      tran
+  }
+  .container {
+      overflow-y: scroll hidden;
+      margin: 0 auto;
+      min-height: 100vh;
+      min-width: 100vw;
+      display: flex;
+      flex-direction: column;
+
+      overflow: scroll hidden
+    }
+hr {
+    width: 100%;
+    margin: 0 auto;
+    left: 0;
+}
+.individual__student {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px 0px 15px 0px;
+    width: 100vw;
+    min-height: 200px;
+    max-height: 200px;
+}
+.search__bar {
+    font-size: 18px;
+    width: 90vw;
+    margin: 0 auto;
+    padding: 15px 5px 15px 5px;
+    border: 0;
+    border-bottom: 2px solid gray;
+}
+.search__bar:focus {
+    outline: none;
+}
+.student__list {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+
+}
+.student__row {
+    display: flex;
+    flex-direction: column;
+}
+.user__photo {
+    height: 8rem;
+    width: 8rem;
+    outline: 2px solid lightgray;
+    border-radius: 50%;
+    margin-left: 5rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 160px;
+    padding: 20px 0px 20px 0px;
+    align-items: center;
+}
+.user__info {
+    padding: 0px 20px 0px 20px;
+    font-size: 1.2rem;
+}
+.name {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}

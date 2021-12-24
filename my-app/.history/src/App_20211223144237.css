@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-family: 'Raleway', sans-serif;
+}
+.container {
+    min-height: 100vh;
+    min-width: 100vw;
+}
+.individual__student {
+    display: flex;
+    padding: 20 0 10 0;
+}
+.student {
+    height: 100px;
+    width: 100px;
+}
+.student__list {
+    list-style: none;
+}
+.user__photo {
+    min-height: 100%;
+    min-width: 100%;
+    outline: 2px solid lightgray;
+    border-radius: 50%;
+}
+.name {
+    font-size: 3rem;
+}
